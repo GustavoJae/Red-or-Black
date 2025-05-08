@@ -9,8 +9,6 @@ Qual é o valor esperado, denotado por $S(n)$, para um baralho de 52 cartas do a
 
 ## Resultados
 Veremos que, para um baralho de $n$ cartas pretas e $n$ cartas vermelhas, o valor esperado do Score é
-$
-S(n) = n + 0,5(\sqrt{\pi n} -1 ) + O(1/\sqrt{n})
-$
+$$S(n) = n + 0,5(\sqrt{\pi n} -1 ) + O(1/\sqrt{n})$$
 Ou seja, para $n$ suficientemente grande, a aproximação é boa. No caso comum $n=26$, é o suficiente para identificar o inteiro de $S(n)$ mais próximo.
 Assim, enquanto a criança tem score médio de $26$, o jogador astuto tem score médio de $30$ 😎 (yeah!)
